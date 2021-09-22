@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8FA"
+    tools:context=".Splash">
+    <ImageView
+        android:id="@+id/splashimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_splash_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/robotoregular"
+        android:text="  CWLO Call &amp; Message"
+
+        android:textColor="#37474F"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/splashimage" />
+
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="center"
+        android:maxLines="2"
+        android:text="@string/text2"
+        android:textColor="#37474F"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="168dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="112dp"
+        android:background="@drawable/buttonbg"
+        android:elevation="10dp"
+        android:onClick="Next_activity"
+        android:fontFamily="@font/robotoregular"
+        android:gravity="center"
+        android:text="Get Started"
+        android:textColor="#fff"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text2"
+        app:layout_constraintVertical_bias="0.176"
+        tools:ignore="OnClick" />
+</androidx.constraintlayout.widget.ConstraintLayout>

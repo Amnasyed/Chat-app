@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirebaseApp</string>
+    <string name="text2">Lorem ipsum dolor sit amet,consectetur adipiscing elit Lorem ipsum dolor sit amet</string>
+    <string name="this_is_name">This is name</string>
+    <string name="this_is_email">This is email</string>
+    <string name="enter_your_email">Enter your Email</string>
+</resources>
